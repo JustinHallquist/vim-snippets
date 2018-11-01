@@ -1,8 +1,6 @@
 # general
 snippet faf "anon function (js)"
-	((${1:target}) => {
-		$0
-	});
+	((${1:target}) => $0);
 
 # tests
 snippet des "Describe (js)"
@@ -16,14 +14,10 @@ snippet ctx "Context (js)"
 	});
 
 snippet it "it (js)"
-	it('${1:description}', () => {
-		$0
-	});
+	it('${1:description}', () => $0);
 
 snippet bef "before each (js)"
-	beforeEach(() => {
-		$0
-	});
+	beforeEach(() => $0);
 
 snippet aft "after each (js)"
 	afterEach(() => {
